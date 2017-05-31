@@ -1,0 +1,21 @@
+Graph 1 with 3 colors is unsatisfiable.
+
+
+Graph 1 with 4 colors is satisfiable.
+The solution printed out is:
+-1 -28 -27 -26 25 -5 -9 -21 -24 -23 22 -14 -2 -18 -20 -19 17 -13 -16 15 -11 -12 10 -6 -8 7 -3 4
+It shows that there are 28 variables, corresponding to 7 nodes and 4 colors. 
+The true solution is: 
+25, 22, 17, 15, 10, 7, 4
+Reversing node2var, we get:
+var		n		c
+25		7		1
+22		6		2
+17		5		1
+15		4		3
+10		3		2
+7		2		3
+4		1		4
+
+
+Graph 2 needs at least 8 colors.
